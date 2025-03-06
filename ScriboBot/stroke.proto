@@ -1,0 +1,17 @@
+//
+//  stroke.proto
+//  ScriboBot
+//
+//  Created by HouPeihong on 2025/3/6.
+//
+
+syntax = "proto3";
+
+message Point {
+  double x = 1;
+  double y = 2;
+}
+
+message StrokeArray {
+  repeated Point points = 1;
+}

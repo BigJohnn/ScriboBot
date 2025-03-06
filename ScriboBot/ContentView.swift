@@ -316,7 +316,6 @@ struct ContentView: View {
                         }
                     }
                 }
-//                processImage(cgImage: cgImage)
             } else {
                 recognizedText = "CIContext转换失败"
             }
