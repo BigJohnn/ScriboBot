@@ -55,7 +55,7 @@ extension CGImage {
 
         // 转换为灰度图像
         let grayCIImage = ciImage.applyingFilter("CIColorControls", parameters: ["inputSaturation": 0])
-        let targetSize = CGSize(width: 28, height: 28) // MNIST 模型期望的尺寸
+        
         // 从灰度 CIImage 创建 CGImage
         let cicontext = CIContext()
         if let grayCGImage = cicontext.createCGImage(grayCIImage, from: grayCIImage.extent) {

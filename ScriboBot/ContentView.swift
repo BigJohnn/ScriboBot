@@ -34,6 +34,19 @@ class PencilTrackerView: UIView {
             name: .captureDrawingImage,
             object: nil
         )
+        // 新增清空画布通知监听
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(clearCanvas(_:)),
+            name: .clearCanvas,
+            object: nil
+        )
+    }
+    
+    // 新增清空画布方法
+    @objc private func clearCanvas(_ notification: Notification) {
+        canvasImage = nil
+        imageView.image = nil
     }
     
     @objc private func captureImage(_ notification: Notification) {
@@ -185,6 +198,8 @@ class PencilTrackerView: UIView {
             )
         }
     }
+    
+    
 }
 
 // SwiftUI 包装视图
@@ -227,11 +242,20 @@ struct ContentView: View {
             }
             .padding()
             
-            Button("识别文字") {
-                NotificationCenter.default.post(
-                    name: .captureDrawingImage,
-                    object: nil
-                )
+            HStack {
+                Button("识别文字") {
+                    NotificationCenter.default.post(
+                        name: .captureDrawingImage,
+                        object: nil
+                    )
+                }
+                // 新增清空按钮
+                Button("清空画布") {
+                    NotificationCenter.default.post(
+                        name: .clearCanvas,
+                        object: nil
+                    )
+                }
             }
             .padding()
             
@@ -354,6 +378,7 @@ struct ContentView: View {
 // 通知扩展
 extension Notification.Name {
     static let pencilDataUpdate = Notification.Name("pencilDataUpdate")
+    static let clearCanvas = Notification.Name("clearCanvas")
 }
 
 // 预览

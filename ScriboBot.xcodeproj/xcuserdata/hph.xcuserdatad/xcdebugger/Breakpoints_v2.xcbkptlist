@@ -14,10 +14,40 @@
             filePath = "ScriboBot/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "300"
-            endingLineNumber = "300"
-            landmarkName = "recognizeText(from:)"
+            startingLineNumber = "332"
+            endingLineNumber = "332"
+            landmarkName = "cropToBounds(image:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DF6EE282-9BCD-4F13-BC00-5DDCB0A42B9F - 657545c4645f0fc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScriboBot.ContentView.recognizeText(from: __C.UIImage) -&gt; ()"
+                  moduleName = "ScriboBot.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hph/Codes/ScriboBot/ScriboBot/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "300"
+                  endingLineNumber = "300">
+               </Location>
+               <Location
+                  uuid = "DF6EE282-9BCD-4F13-BC00-5DDCB0A42B9F - 657545c4645f13e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScriboBot.ContentView.recognizeText(from: __C.UIImage) -&gt; ()"
+                  moduleName = "ScriboBot.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hph/Codes/ScriboBot/ScriboBot/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "332"
+                  endingLineNumber = "332">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -30,41 +60,9 @@
             filePath = "ScriboBot/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "270"
-            endingLineNumber = "270"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
             landmarkName = "recognizeText(from:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B6010E79-970F-41A2-A44E-A4BB1AA7DC82"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ScriboBot/CGImageEx.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "pixelBuffer(width:height:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4A9D78F9-F490-4814-96CF-6A03B0FE32F1"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ScriboBot/CGImageEx.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "pixelBuffer(width:height:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
